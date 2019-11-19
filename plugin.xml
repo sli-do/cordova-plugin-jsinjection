@@ -32,7 +32,7 @@
 
     <dependency id="cordova-plugin-whitelist" version=">=1.0.1" />
     <dependency id="cordova-plugin-network-information" version=">=1.0.0" />
-    <dependency id="cordova-plugin-wkwebview-engine" version=">=1.0.0" />
+    <dependency id="cordova-plugin-ionic-webview" version="^4.1.2" />
 
     <js-module src="www/jsinjection.js" name="jsinjection">
         <clobbers target="jsinjection" />

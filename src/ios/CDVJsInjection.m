@@ -312,7 +312,7 @@ static NSString* const DEFAULT_CORDOVA_BASE_URL = @"";
             [scripts addObject:@"cordova.js"];
         }
 
-        [scripts addObject:@"plugins/cordova-plugin-wkwebview-engine/src/www/ios/ios-wkwebview-exec.js"];
+        [scripts addObject:@"plugins/cordova-plugin-ionic-webview/src/www/ios/ios-wkwebview-exec.js"];
         [scripts addObject:@"jsinjection-bridge.js"];
         [self injectScripts:scripts];
         
